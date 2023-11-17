@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body, #ref {
+  height: 100%;
+  background: #dcddec;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}
